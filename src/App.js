@@ -5,10 +5,10 @@ import { createStructuredSelector } from 'reselect';
 
 import './App.css';
 
-import HomePage from './components/pages/homepage/homepage.component';
-import ShopPage from './components/pages/shop/shop.component';
-import SignInAndSignUpPage from './components/pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
-import CheckoutPage from './components/pages/checkout/checkout.componet';
+import HomePage from './pages/homepage/homepage.component';
+import ShopPage from './pages/shop/shop.component';
+import SignInAndSignUpPage from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import CheckoutPage from './pages/checkout/checkout.componet';
 
 import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.utils';
