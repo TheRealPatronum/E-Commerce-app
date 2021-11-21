@@ -2,12 +2,12 @@ import React from 'react';
 
 import CollectionItem from '../../components/collection-item/collection-item.component';
 
-import './category.styles.scss';
+import './collection.styles.scss';
 
-const CategoryPage = () => (
-  <div className='category'>
+const CollactionPage = () => (
+  <div className='collaction-page'>
     <h2>CATEGORY PAGE</h2>
   </div>
 );
 
-export default CategoryPage;
+export default CollactionPage;
